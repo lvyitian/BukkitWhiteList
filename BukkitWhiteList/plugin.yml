@@ -1,0 +1,12 @@
+name: WhiteList
+version: 3.0
+author: lvyitian
+main: top.dsbbs2.whitelist.WhiteListPlugin
+commands: 
+  wl: 
+   usage: /wl <childCmd> [args]...
+permissions: 
+  whitelist.add: 
+    default: op
+  whilelist.remove: 
+    default: op
